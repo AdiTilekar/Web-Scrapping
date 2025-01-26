@@ -12,6 +12,7 @@ There is a website named as quotestoscrap.com you have to scrap the quotes, auth
 ![Image](https://github.com/user-attachments/assets/e52963a8-bbdd-4e2e-be9c-e282777ecc1b)
 
 ## Project code :-
+```python
     import requests 
     from bs4 import BeautifulSoup
     import pandas as pd
@@ -41,6 +42,7 @@ There is a website named as quotestoscrap.com you have to scrap the quotes, auth
     df = pd.DataFrame(data, columns = ['quote', 'author','author_id','tags'])
     df['author_link'] = 'https://quotes.toscrape.com'+df['author_id']
     df.to_csv('quotes.csv',index = False)
+```
 ## Libraries used in this project :-
 
 ![Image](https://github.com/user-attachments/assets/8ec5108f-a0e3-4976-a253-f6ba8dc11761)
