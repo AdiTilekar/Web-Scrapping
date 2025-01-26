@@ -2,7 +2,7 @@
 
 ## **Problem Statement**
 
-#### There is a website named as books.toscrape.com/ you have to scrap the  **Book_tittle, Rating,price, Availability, Book_link, Image_link** which is in the website upto 50 pages and create a CSV file of it.
+#### There is a website named as books.toscrape.com you have to scrap the  **Book_tittle, Rating,price, Availability, Book_link, Image_link** which is in the website upto 50 pages and create a CSV file of it.
 ## **Snapshot of website :-**
 ![Image](https://github.com/user-attachments/assets/d9bf9090-0781-40ad-b10b-41cbfa5e6c28)
 
