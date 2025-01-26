@@ -12,6 +12,7 @@
 ![Image](https://github.com/user-attachments/assets/51adec63-3b15-4cb7-9cb1-f5ed266cb216)
 
 ## **Project code :-**
+```python
     import requests 
     from bs4 import BeautifulSoup
     import pandas as pd
@@ -33,6 +34,7 @@
             data.append([Book_tittle,Rating,Price,Availability,Book_link,Image_link])
     df=pd.DataFrame(data , columns = ['Book_tittle','Rating','Price','Availability','Book_link','Image_link'])
     df.to_csv('Books_data.csv', index = False)
+```
 ## **Libraries used in this project :-**
 
 ![Image](https://github.com/user-attachments/assets/8ec5108f-a0e3-4976-a253-f6ba8dc11761)
